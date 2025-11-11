@@ -1,0 +1,12 @@
+{
+  "channel": "testversion",
+  "version": "T0.9.4",
+  "build": "2025-11-09T00:00:00Z",
+  "asset": {
+    "download": "https://github.com/bsc-org/bsc_fw_insider/releases"
+  },
+  "changelog": {
+    "de": "",
+    "en": "# Test Version T0.9.4\n\n## New\n\n- New login page\n\n## Fixed\n\n- Incorrect current values sent to the inverter for currents > 327 A\n- Wrong default values\n- Pylontech battery capacity\n- Slow discharge-current ramp-up after a restart\n\n## Please review (and reset if needed)\n\n- Battery pack settings → Capacity\n- Relay outputs → Invert\n- Data device mapping → Interface\n- Data device mapping → Address\n\nImportant: The display must be updated to version ≥ 1.0.5 for this release, otherwise readings will be incorrect!\n\nFirmware mapping:\n\nOriginal BSC hardware: firmware_xx_xx.bin\nLilygo T-CONNECT - Flashing via USB: firmware_tconnect_full_xx_xx.bin\nLilygo T-CONNECT - Update via OTA: firmware_tconnect_ota_xx_xx.bin"
+  }
+}
